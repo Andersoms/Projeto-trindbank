@@ -1,0 +1,113 @@
+body {
+    padding: 0 px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(233, 17, 17);
+
+
+}
+nav{
+    background-color: #ffffff;;
+    padding: 10px 60px;
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch;
+    
+}
+nav .logo a{
+    text-decoration: none;
+    color: #eee9e9;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(233, 17, 17);
+    font-size: 22px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+nav li a:hover{
+    background-color: rgb(233, 17, 17);
+    color: rgb(255, 255, 255);
+    
+}
+.banner{
+    height: 150vh;
+    background: linear-gradient rgb(233, 17, 17);
+    background-size: cover;
+    background-position: end;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text .titulo{
+    color: rgb(211, 211, 214);
+    font-size: 70px;
+    font-weight: 60;
+    text-decoration: solid;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif
+}
+.text .sub_titulo{
+    color:rgb(211, 211, 214);
+    font-size: 30px;
+    font-weight: 100;
+    padding: 50px;
+}
+.text .sub_sub{
+    color: rgb(210, 211, 214);
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: solid;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma,Verdana, sans-serif
+}
+.text .botoes{
+    margin-top: 15px;
+}
+.text .botoes button{
+    height: 40px;
+    width: 245px;
+    border-radius: 58px;
+    border: 3;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px;
+    cursor:default;
+    outline: none;
+    transition: 0.2s;
+}
+.text .botoes button.n-overlay{
+    color:  rgb(255, 255, 255);
+    background:local;
+    border: 3px solid  rgb(255, 255, 255);
+  
+}
+.text .botoes button.n-overlay:hover{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(255, 255, 255);
+
+}
+
+text{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+
